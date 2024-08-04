@@ -1,0 +1,81 @@
+.pagina-varestado {
+  .testes {
+    display: flex;
+    gap: 20px;
+    font: 600 24px solid "Poppins";
+    align-items: center;
+  }
+  .calculadora {
+    #limpar {
+      transition: 1s;
+    }
+    #limpar:hover {
+      transform: translate(-5px, -5px);
+      background: linear-gradient(to left top, white, #35e4be);
+    }
+    display: flex;
+    flex-direction: column;
+    .calculos {
+      display: flex;
+      gap: 20px;
+    }
+    button.clicked {
+      transform: scale(1);
+    }
+    button {
+      min-width: auto;
+      width: 80px;
+    }
+    .entrada {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font: 500 20px "Poppins";
+      input,
+      .res {
+        margin-bottom: 15px;
+        min-width: auto;
+        width: 70px;
+      }
+      .res {
+        border: 2px dashed;
+        width: 60px;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+  .ingressos {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      color: #2e1b81;
+    }
+    .ing {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      & > div {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        label {
+          width: 150px;
+          text-align: rigth;
+        }
+        input[type="text"] {
+          min-width: auto;
+          width: 80px;
+          height: 30px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
+        }
+      }
+    }
+  }
+  .metas {
+    ul {
+      list-style-type: none;
+    }
+  }
+}
