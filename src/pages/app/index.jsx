@@ -1,11 +1,10 @@
 import "./index.scss";
 import { Link } from "react-router-dom";
+import Cabecalho from "../../components/cabecalho";
 function App() {
   return (
     <div className="pagina-app pagina">
-      <header className="cabecalho">
-        <h1> Estudos React ! </h1>
-      </header>
+      <Cabecalho  titulo='ReactJS' />
       <section className="secao">
         <h1>Titulo</h1>
         {/* <input type="text" placeholder="Digite aqui" />
@@ -24,6 +23,9 @@ function App() {
             <li>Pagina de eventos</li>
           </Link>
           <Link to="/varEstado">
+            <li>Ir para Variavel de Estado</li>
+          </Link>
+          <Link to="/trainingList">
             <li>Ir para Variavel de Estado</li>
           </Link>
         </ul>

@@ -1,4 +1,7 @@
 .pagina-varestado {
+  h1 {
+    font: 600 24px solid "Poppins";
+  }
   .testes {
     display: flex;
     gap: 20px;
@@ -13,8 +16,8 @@
       transform: translate(-5px, -5px);
       background: linear-gradient(to left top, white, #35e4be);
     }
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     .calculos {
       display: flex;
       gap: 20px;
