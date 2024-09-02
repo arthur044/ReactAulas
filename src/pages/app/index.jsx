@@ -28,6 +28,9 @@ function App() {
           <Link to="/trainingList">
             <li>Ir para Variavel de Estado</li>
           </Link>
+          <Link to="/listademetas">
+            <li>Ir para treino lista de metas</li>
+          </Link>
         </ul>
       </section>
     </div>

@@ -4,6 +4,7 @@ import NotFound from './pages/notFound/index'
 import Eventos from './pages/eventos';
 import Varestado from './pages/varEstado'
 import TrainingList from './pages/traininglist'
+import ListaDeMetasTreino from './pages/listademetas';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function Navegacao() {
@@ -15,6 +16,7 @@ export default function Navegacao() {
         <Route path="/eventos" element={<Eventos />} />
         <Route path='/varEstado' element={<Varestado />} />
         <Route path="/traininglist" element={<TrainingList />} />
+        <Route path="/listademetas" element={<ListaDeMetasTreino />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
