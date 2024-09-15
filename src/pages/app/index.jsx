@@ -31,6 +31,9 @@ function App() {
           <Link to="/listademetas">
             <li>Ir para treino lista de metas</li>
           </Link>
+          <Link to="/comps">
+            <li>Componenents</li>
+          </Link>
         </ul>
       </section>
     </div>
