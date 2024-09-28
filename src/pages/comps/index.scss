@@ -1,4 +1,19 @@
 .pagina-catalogo {
+  .aluno {
+    display: flex;
+    flex-direction: column;
+
+    .entradas {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input{
+        min-width: auto;
+        border: 1px dashed black;
+        width: 40px;
+      }
+    }
+  }
   .metas {
     .entrada {
       margin: 30px 0px;

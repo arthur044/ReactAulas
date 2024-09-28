@@ -34,6 +34,12 @@ function App() {
           <Link to="/comps">
             <li>Componenents</li>
           </Link>
+          <Link to="/rendeCond">
+            <li>Renderização</li>
+          </Link>
+          <Link to="/proba">
+            <li>Desacargo</li>
+          </Link>
         </ul>
       </section>
     </div>
